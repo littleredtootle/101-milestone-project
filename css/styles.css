@@ -19,8 +19,12 @@ body {
 }
 
 
+/***.......... Grid ................*/
+
 .full-width {
     width: 1400px;
+    margin: 0 auto;
+    overflow: auto;
 }
 
 .half-width {
@@ -72,21 +76,20 @@ body, html {
   transform: translate(-50%, -50%);
   color: #095256;
 }
-
   
 .hero-text h1 {
     color: #bdbf09;
     font-family: 'Roboto Slab Bold';
     font-size: 40px;
+    margin-bottom: 50px;
 }
 
 .hero-text p {
     color: #095256;
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
+}
 
-}
-}
 
 
 
