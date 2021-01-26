@@ -1,3 +1,10 @@
+/* colors:
+Contact me section: #bdbf09;
+Body text: #095256;
+
+
+/***.......... Global styles ................*/
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -11,6 +18,23 @@ body {
     background-color: yellow;
 }
 
+
+.full-width {
+    width: 1400px;
+}
+
+.half-width {
+    width: 700px;
+}
+
+.large-third-width {
+    width: 500px;
+}
+
+.small-third-width {
+    width: 400px;
+}
+
 h1 {
     margin: 0;
 }
@@ -19,16 +43,91 @@ p {
     margin: 0;
 }
 
+
+body, html {
+    height: 100%;
+}
+
+/***.......... Hero section ................*/
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("/img/hero-image.jpg");
+
+  /* Height to fill the hero-image class div. */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #095256;
+}
+
+  
+.hero-text h1 {
+    color: #bdbf09;
+    font-family: 'Roboto Slab Bold';
+    font-size: 40px;
+}
+
+.hero-text p {
+    color: #095256;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+
+}
+}
+
+
+
+
+
+
+/***.......... Section styles ................*/
+
+
+
 #work {
 
     background-color: pink;
     height: 1450px;
 }
 
+
 #about {
     background-color: orange;
     height: 650px;
 }
+
+#about full-width {
+    padding: 80px 0;
+}
+
+/*
+#about h2 {
+    font-family: 
+    font-size:
+    padding-left:
+}
+
+#about p {
+    font-size:
+    color:
+    line-height:
+    padding-left:
+    padding-right:
+}*/
+
 
 #contact {
     background-color: lightgreen;
