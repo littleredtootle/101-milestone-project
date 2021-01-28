@@ -23,8 +23,6 @@ body {
 
 .full-width {
     width: 1400px;
-    margin: 0 auto;
-    overflow: auto;
 }
 
 .half-width {
@@ -104,6 +102,24 @@ body, html {
 
     background-color: pink;
     height: 1450px;
+}
+
+#work h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    text-align: center;
+
+    color: #095256;
+}
+
+.description {
+    float: left;
+    clear: both;
+}
+
+.preview {
+    float: left;
+    clear: both;
 }
 
 
