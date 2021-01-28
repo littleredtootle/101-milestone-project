@@ -11,6 +11,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #header {
@@ -93,13 +94,10 @@ body, html {
 
 
 
-
-
-
-
 /***.......... Section styles ................*/
 
 
+/***.......... WORK SECTION ................*/
 
 #work {
     background-color: pink;
@@ -111,7 +109,35 @@ body, html {
     font-size: 25px;
     text-align: center;
     color: #095256;
+    padding: 50px;
 }
+
+#work img {
+    padding: 50px 50px 50px 100px;
+  /*  box-sizing: border-box; */
+}
+
+#description {
+    margin-left: 150px;
+}
+
+#work h2 {
+    padding: 5px 0px;
+}
+
+#work h3 {
+    padding: 5px 0px;
+}
+
+#work p {
+    text-align: justify;
+    line-height: double;
+}
+
+
+/***.......... ABOUT SECTION ................*/
+
+
 
 
 
