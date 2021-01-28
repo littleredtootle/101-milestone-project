@@ -26,7 +26,7 @@ body {
 }
 
 .half-width {
-    width: 700px;
+    width: 600px;
     float: left;
 }
 
@@ -113,13 +113,6 @@ body, html {
     color: #095256;
 }
 
-.preview {
-    float: left;
-}
-
-.description {
-    float: right;
-}
 
 
 #about {
