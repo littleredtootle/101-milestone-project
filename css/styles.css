@@ -27,14 +27,17 @@ body {
 
 .half-width {
     width: 700px;
+    float: left;
 }
 
 .large-third-width {
     width: 500px;
+    float: left;
 }
 
 .small-third-width {
     width: 400px;
+    float: left;
 }
 
 h1 {
@@ -99,7 +102,6 @@ body, html {
 
 
 #work {
-
     background-color: pink;
     height: 1450px;
 }
@@ -108,18 +110,15 @@ body, html {
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
     text-align: center;
-
     color: #095256;
-}
-
-.description {
-    float: left;
-    clear: both;
 }
 
 .preview {
     float: left;
-    clear: both;
+}
+
+.description {
+    float: right;
 }
 
 
