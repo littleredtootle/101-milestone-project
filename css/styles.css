@@ -112,14 +112,14 @@ body, html {
     padding: 50px;
 }
 
-
+/*
 #work img {
-    /*padding: 50px 50px 50px 100px;*/
+    /*padding: 50px 50px 50px 100px;
     box-sizing: border-box; 
-} 
+} */
 
 .preview {
-    padding: 50px 50px 50px 50px;
+    padding: 50px 50px 50px 100px;
     height: 350px;
     width: 550px;
     margin: 0;
@@ -128,11 +128,12 @@ body, html {
 
 
 .description {
-    padding: 50px;
+    padding: 45px 50px 50px 50px;
     height: 350px;
     width: 600px;
     margin: 0;
     box-sizing: border-box;
+    margin-left: 50px;
 }
 
 #work h2 {
@@ -148,9 +149,9 @@ body, html {
 #work h3 {
     padding-bottom: 30px;
     margin: 0px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: orange;
 }
 
 #work p {
