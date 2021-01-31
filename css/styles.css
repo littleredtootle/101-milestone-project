@@ -112,26 +112,37 @@ body, html {
     padding: 50px;
 }
 
+/*
 #work img {
     padding: 50px 50px 50px 100px;
-  /*  box-sizing: border-box; */
-}
+  /*  box-sizing: border-box; 
+} */
 
-#description {
+
+.description {
     margin-left: 150px;
 }
 
 #work h2 {
-    padding: 5px 0px;
+    padding: 50px 50px 50px 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700px;
+    font-size: 25px;
+    color: indigo;
 }
 
 #work h3 {
-    padding: 5px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: orange;
 }
 
 #work p {
     text-align: justify;
     line-height: double;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: green;
 }
 
 
