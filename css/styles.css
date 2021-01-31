@@ -29,6 +29,7 @@ body {
 .half-width {
     width: 600px;
     float: left;
+    overflow: auto;
 }
 
 .large-third-width {
@@ -121,12 +122,15 @@ body, html {
 .preview {
     padding: 50px 50px 50px 100px;
     height: 350px;
+    box-sizing: border-box;
 }
 
 
 .description {
     padding: 25px 50px 50px 100px;
     height: 350px;
+    margin-top: 0;
+    box-sizing: border-box;
 }
 
 #work h2 {
