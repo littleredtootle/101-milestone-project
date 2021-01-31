@@ -29,7 +29,6 @@ body {
 .half-width {
     width: 600px;
     float: left;
-    overflow: auto;
 }
 
 .large-third-width {
@@ -113,29 +112,33 @@ body, html {
     padding: 50px;
 }
 
-/*
+
 #work img {
-    padding: 50px 50px 50px 100px;
-  /*  box-sizing: border-box; 
-} */
+    /*padding: 50px 50px 50px 100px;*/
+    box-sizing: border-box; 
+} 
 
 .preview {
-    padding: 50px 50px 50px 100px;
+    padding: 50px 50px 50px 50px;
     height: 350px;
+    width: 550px;
+    margin: 0;
     box-sizing: border-box;
 }
 
 
 .description {
-    padding: 25px 50px 50px 100px;
+    padding: 50px;
     height: 350px;
-    margin-top: 0;
+    width: 600px;
+    margin: 0;
     box-sizing: border-box;
 }
 
 #work h2 {
    /* padding: 50px 50px 50px 100px;*/
-    
+    padding-bottom: 10px;
+    margin: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 25px;
@@ -143,6 +146,8 @@ body, html {
 }
 
 #work h3 {
+    padding-bottom: 30px;
+    margin: 0px;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: orange;
