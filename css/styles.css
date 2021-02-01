@@ -101,7 +101,7 @@ body, html {
 
 #work {
     background-color: pink;
-    height: 1450px;
+    height: 1400px;
 }
 
 #work h1 {
@@ -118,22 +118,25 @@ body, html {
     box-sizing: border-box; 
 } */
 
+#work img {
+    height: 350px;
+}
+
 .preview {
     padding: 50px 50px 50px 100px;
-    height: 350px;
     width: 550px;
+    height: 340px;
     margin: 0;
     box-sizing: border-box;
 }
 
 
 .description {
-    padding: 45px 50px 50px 50px;
-    height: 350px;
+    padding: 45px 50px 50px 100px;
     width: 600px;
+    height: 340px;
     margin: 0;
     box-sizing: border-box;
-    margin-left: 50px;
 }
 
 #work h2 {
@@ -172,6 +175,7 @@ body, html {
 #about {
     background-color: orange;
     height: 650px;
+    margin: 0px;
 }
 
 #about full-width {
