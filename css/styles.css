@@ -16,7 +16,7 @@ body {
 
 #header {
     height: 800px;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 
 
@@ -100,8 +100,9 @@ body, html {
 /***.......... WORK SECTION ................*/
 
 #work {
-    background-color: pink;
+    background-color: #fff;
     height: 1450px;
+    overflow: auto;
 }
 
 #work h1 {
@@ -124,7 +125,7 @@ body, html {
 
 .preview {
     /*padding: 50px 50px 50px 100px;*/
-    margin: 25px 50px 50px 50px;
+    margin: 50px 50px 50px 50px;
     height: 350px;
     box-sizing: border-box;
 }
@@ -132,7 +133,7 @@ body, html {
 
 .description {
     /*padding: 45px 50px 50px 100px;*/
-    margin: 20px 0px 50px 50px;
+    margin: 45px 0px 50px 50px;
     height: 350px;
     width: 600px;
     box-sizing: border-box;
@@ -144,24 +145,27 @@ body, html {
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 25px;
-    color: indigo;
+    font-size: 20px;
+    color: #095256;
 }
 
+/*
 #work h3 {
     padding-bottom: 30px;
     margin: 0px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: orange;
+    color: #095256;
 }
+*/
 
 #work p {
     text-align: justify;
+    padding-bottom: 30px;
     line-height: 25px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    color: green;
+    color: #095256;
 }
 
 
