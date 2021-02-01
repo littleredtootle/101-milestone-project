@@ -101,7 +101,7 @@ body, html {
 
 #work {
     background-color: pink;
-    height: 1400px;
+    height: 1450px;
 }
 
 #work h1 {
@@ -123,19 +123,18 @@ body, html {
 }
 
 .preview {
-    padding: 50px 50px 50px 100px;
-    width: 550px;
-    height: 340px;
-    margin: 0;
+    /*padding: 50px 50px 50px 100px;*/
+    margin: 25px 50px 50px 50px;
+    height: 350px;
     box-sizing: border-box;
 }
 
 
 .description {
-    padding: 45px 50px 50px 100px;
+    /*padding: 45px 50px 50px 100px;*/
+    margin: 20px 0px 50px 50px;
+    height: 350px;
     width: 600px;
-    height: 340px;
-    margin: 0;
     box-sizing: border-box;
 }
 
