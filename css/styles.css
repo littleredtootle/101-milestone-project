@@ -171,10 +171,6 @@ body, html {
 
 /***.......... ABOUT SECTION ................*/
 
-
-
-
-
 #about {
     background-color: #087e8b;
     height: 650px;
@@ -182,10 +178,26 @@ body, html {
     color: #fff;
 }
 
+/*
 #about full-width {
     padding: 80px 0;
-}
+}*/
 
+/*
+.about-content {
+    width: 600px;
+    height: 350px;
+    float: right;
+} */
+
+#about .half-width {
+    float: right;
+    width: 600px;
+    height: 350px;
+    box-sizing: border-box;
+    overflow: auto;
+    margin: 60px 100px 50px 50px;
+}
 
 #about h1 {
     font-family: 'Roboto Slab', serif;
@@ -193,7 +205,6 @@ body, html {
     text-align: center;
     padding: 50px;
 }
-
 
 #about p {
     text-align: justify;
@@ -203,12 +214,23 @@ body, html {
     font-size: 20px;
     font-weight: 300;
 }
+#about .intro-sentence {
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/***.......... CONTACT SECTION ................*/
+
 
 
 #contact {
     background-color: lightgreen;
     height: 450px;
 }
+
+/***.......... FOOTER ................*/
+
 
 
 footer {
