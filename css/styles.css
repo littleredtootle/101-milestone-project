@@ -176,29 +176,33 @@ body, html {
 
 
 #about {
-    background-color: orange;
+    background-color: #087e8b;
     height: 650px;
     margin: 0px;
+    color: #fff;
 }
 
 #about full-width {
     padding: 80px 0;
 }
 
-/*
-#about h2 {
-    font-family: 
-    font-size:
-    padding-left:
+
+#about h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
 }
 
+
 #about p {
-    font-size:
-    color:
-    line-height:
-    padding-left:
-    padding-right:
-}*/
+    text-align: justify;
+    padding-bottom: 30px;
+    line-height: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
 
 
 #contact {
