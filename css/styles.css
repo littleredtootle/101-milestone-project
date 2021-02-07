@@ -31,13 +31,19 @@ body {
     float: left;
 }
 
+/*
 .large-third-width {
     width: 500px;
     float: left;
-}
+} */
 
+/*
 .small-third-width {
     width: 400px;
+    float: left;
+} */
+
+.third-width {
     float: left;
 }
 
@@ -225,8 +231,64 @@ body, html {
 
 
 #contact {
-    background-color: lightgreen;
+    background-color: #095156;
     height: 450px;
+    color: #fff;
+}
+
+#contact h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 25px;
+    font-weight: 300px;
+    padding: 50px;
+    background-color: yellow;
+}
+
+#contact img {
+    height: 30px;
+    align: center;
+}
+
+#contact .email-me {
+    background: lightskyblue;
+    text-align: center;
+    height: 200px;
+    width: 450px;
+    float: left;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    margin-left: 25px;
+}
+
+#contact .follow-me {
+    background: pink;
+    height: 200px;
+    width: 400px;
+    float: left;
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#contact .test {
+    background: palegreen;
+    text-align: center;
+    height: 200px;
+    width: 450px;
+    float: left;
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#contact .third-width {
+    background: purple;
+    float: left;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 
 /***.......... FOOTER ................*/
