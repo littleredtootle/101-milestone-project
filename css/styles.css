@@ -68,7 +68,7 @@ footer {
 /***.......... Hero section ................***/
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: url("img/hero-image.jpg");
+  background-image: url("/img/hero-image.jpg");
 
   /* Height to fill the hero-image class div. */
   height: 100%;
